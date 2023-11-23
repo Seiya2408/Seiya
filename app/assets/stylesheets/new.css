@@ -1,27 +1,22 @@
 body.seiya2{
-    background-image: url(post.png);
+    background-image: url(huku.png);
 }
 .seiya1{
     border: solid 3px #333;
-    font-family: 'Red Hat Display', sans-serif;
+    font-family: 'Alumni Sans Inline One', sans-serif;
     background-color: rgba(255, 255, 255, 0.961);
-    height: 580px;
-    width: 700px;
+    height: 700px;
+    width: 500px;
     margin-left: auto;
     margin-right: auto;
-}
-.newpost{
-    text-align:center
 }
 .fashion{
     display: flex;
     width: 100%;
 }
-
 .fashion4{
     width: 800px;
 }
-
 .fashion2{
     font-family: 'Red Hat Display', sans-serif;
     margin-left: 000px;
@@ -41,46 +36,12 @@ text-align: center
 .setsumei1{
 text-align: center
 }
-.setsumei2{
-    display:flex;
-    height: 300px;
-    font-family: 'Red Hat Display', sans-serif;
-    font-size: 20px; 
-}
-
 .field1{
-    font-family: 'Red Hat Display', sans-serif; 
+    font-family: 'Red Hat Display', sans-serif;
 }
 .field3{
 margin-right: 5px;
 }
-body.sign{
-    background-image: url(sign1.png);
-}
-.sign1{
-    border: solid 3px #333;
-    font-family: 'Alumni Sans Inline One', sans-serif;
-    background-color: rgba(255, 255, 255, 0.961);
-    height: 580px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.newsign{
-    text-align:center
-}
-body.login{
-    background-image: url(door1.png);
-}
-.login1{
-    border: solid 3px #333;
-    font-family: 'Alumni Sans Inline One', sans-serif;
-    background-color: rgba(255, 255, 255, 0.961);
-    height: 580px;
-    width: 700px;
-    margin-left: auto;
-    margin-right: auto;
-}
-.loginA{
-    text-align:center
+.fashion_form{
+font-family: 'Alumni Sans Inline One', sans-serif;
 }

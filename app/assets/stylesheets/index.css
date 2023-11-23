@@ -5,7 +5,6 @@
   justify-content: center;
   align-items: center;
 }
-  
   .title-container {
     position: relative;/*相対配置*/
     text-align: center;
@@ -15,53 +14,37 @@
   }
     .title-container p {
     font-size: 80px;
-    color: #f8f4f4;
+    color: #F8F4F4;
     position: absolute;
     top: 200px;
-    left: 350px;
+    left: 380px;
   }
-  
   h3 {
     font-size: 50px;
     font-family: serif;
     color: #444;
   }
- 
-
-  .field1{
-    
-  }
-
   .erena ul{
     display: flex;
-    gap: 10px;
+    gap: 21%;
     list-style: none;
-    font-family: ;
+    font-family:'Alumni Sans Inline One', sans-serif; ;
   }
-  .erena{
-    font-family: 'Alumni Sans Inline One', sans-serif;
-  }
-  
   .field2 ul{
     display: flex;
-    gap: 55px;
+    gap: 28.5%;
     list-style: none;
-
   }
-
   .field ul{
     display: flex;
-    gap: 19px;
+    gap: 22%;
     list-style: none;
   }
-
   .actions ul{
     display: flex;
     gap: 60px;
     list-style: none;
   }
-
-
   .aaaaa{
     text-align: center;
   }

@@ -14,47 +14,57 @@
  *= require_self
  */
  * {
-    padding: 0;
-    margin: 0;
-  }
-  * {
-    : 'Alumni Sans Inline One', sans-serif;
-  }
-  header {
-    background-color: #080808;
-    height: 80px;
-    font-weight: bold;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-  }
-  header a {
-    color: white; 
-    text-decoration: none; 
-  }
-  header h1 {
-    color: white;
-    margin-left: 20px;
-  }
-  .header-list {
-    display: flex;
-    align-items: center;
-  }
-  header ul {
-    display: flex;
-  }
-  header li {
-    list-style: none;
-    margin-right: 40px;
-  }
-  footer {
-    color: white;
-    height: 30px;
-    background-color: #000;
-    bottom: 0;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    position: fixed;
-    justify-content: flex-end;
-  }
+  padding: 0;
+  margin: 0;
+}
+header {
+  background-color: #080808;
+  height: 80px;
+  font-weight: bold;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+header a {
+  color: white;
+  text-decoration: none;
+}
+header h1 {
+  color: white;
+  margin-left: 20px;
+}
+.header-list {
+  display: flex;
+  align-items: center;
+}
+header ul {
+  display: flex;
+}
+header li {
+  list-style: none;
+  margin-right: 40px;
+}
+footer {
+  color: white;
+  height: 30px;
+  background-color: #000;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  position: fixed;
+  justify-content: flex-end;
+}
+body.seiya2 li{
+  font-family: serif;
+  color: #444;
+  list-style: none;
+}
+body.seiya2 label{
+  font-family: serif;
+  color: #444;
+}
+body.seiya2 input{
+  font-family: 'Alumni Sans Inline One', sans-serif;
+  color: #444;
+} 
