@@ -26,23 +26,23 @@
   }
   .erena ul{
     display: flex;
-    gap: 21%;
+    gap: 5.5%;
     list-style: none;
     font-family:'Alumni Sans Inline One', sans-serif; ;
   }
   .field2 ul{
     display: flex;
-    gap: 28.5%;
+    gap: 10.8%;
     list-style: none;
   }
   .field ul{
     display: flex;
-    gap: 22%;
+    gap: 6.2%;
     list-style: none;
   }
   .actions ul{
     display: flex;
-    gap: 60px;
+    gap: 78px;
     list-style: none;
   }
   .aaaaa{
