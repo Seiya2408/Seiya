@@ -42,9 +42,7 @@ class FashionsController < ApplicationController
   end
   private
   def fashion_params
-    params.require(:fashion).permit(:name, :address, :about, :image, :overall)
+    params.require(:fashion).permit(:name, :address, :about, :image, :overall, :lat, :lng)
   end
-  def fashion_params
-    params.require(:fashion).permit(:body, :lat, :lng)
-  end
+  
 end

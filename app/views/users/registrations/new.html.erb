@@ -1,5 +1,8 @@
-<h2>Sign up</h2>
-
+<body class="sign">
+<div class="sign1">
+<div class="newsign">
+<h3>Sign up</h3>
+</div>
 <%= form_for(resource, as: resource_name, url: registration_path(resource_name)) do |f| %>
   <%= render "users/shared/error_messages", resource: resource %>
 
@@ -32,3 +35,4 @@
 <% end %>
 
 <%= render "users/shared/links" %>
+</body>

@@ -17,11 +17,12 @@
       <div class="header-list">
       <ul>
      <% if user_signed_in? %>
-      <li><%= button_to 'ログアウト', destroy_user_session_path, method: :delete %></li>
+      <li><%= button_to 'Logout', destroy_user_session_path, method: :delete %></li>
      <% else %>
-      <li><%= link_to "新規登録", new_user_registration_path %></li>
-      <li><%= link_to "ログイン", new_user_session_path %></li>
-     <% end %>
+      <li><%= link_to "Signup", new_user_registration_path %></li>
+      <li><%= link_to "Login", new_user_session_path %></li>
+      <%= link_to "NewPost", new_fashion_path %>
+      <% end %>
     </ul>
    </div>
   </header>

@@ -2,7 +2,7 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
 .tweet_form{
-    display: flex;
+    
     flex-direction: column;
     justify-content: flex-start;
     width: 300px;
@@ -15,7 +15,7 @@
 
 
   .post_form{
-    display: flex;
+
     flex-direction: row-reverse;
     justify-content: flex-end;
   }
@@ -66,3 +66,4 @@
     color: #ccc;
     
   }
+
